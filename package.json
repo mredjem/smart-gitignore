@@ -1,0 +1,28 @@
+{
+  "name": "smart-gitignore",
+  "main": "./lib/smart-gitignore",
+  "version": "0.0.0",
+  "description": "Generate a clean .gitignore file from Atom.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mredjem/smart-gitignore.git"
+  },
+  "keywords": [
+    "git",
+    "gitignore",
+    "generator"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mredjem/smart-gitignore/issues"
+  },
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "activationCommands": {
+    "atom-workspace": "smart-gitignore:generate"
+  },
+  "dependencies": {
+    "axios": "^0.19.2"
+  }
+}

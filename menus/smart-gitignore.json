@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Generate .gitignore",
+        "command": "smart-gitignore:generate"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "Smart Gitignore",
+          "submenu": [
+            {
+              "label": "Generate .gitignore",
+              "command": "smart-gitignore:generate"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
