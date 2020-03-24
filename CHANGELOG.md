@@ -1,5 +1,11 @@
 # Change log
 
+## 0.3.0
+
+**Features**
+
+ - Add exit button to templates modal
+
 ## 0.2.0
 
 **Features**
